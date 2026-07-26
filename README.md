@@ -33,5 +33,11 @@ testable.
 ```bash
 npm run dev
 npm run build
+npm run build:next
+npm run build:sites
 npm test
 ```
+
+`npm run build` selects the native Next.js target on Vercel and the Vinext
+target elsewhere. The explicit build commands are available for local
+deployment checks.
