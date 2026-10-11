@@ -28,16 +28,3 @@ optional and raises GitHub’s public API request limit. Without a Groq key, the
 app uses a clearly labeled local preview draft so the complete interface remains
 testable.
 
-## Commands
-
-```bash
-npm run dev
-npm run build
-npm run build:next
-npm run build:sites
-npm test
-```
-
-`npm run build` selects the native Next.js target on Vercel and the Vinext
-target elsewhere. The explicit build commands are available for local
-deployment checks.
